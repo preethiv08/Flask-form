@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+  background: url(http://wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+
+.title{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  font-family:  Helvetica, sans-serif;
+  padding-top:20px;
+}
+
+
+  .section{
+    background: #2d3e3f;
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    padding: 50px 50px 20px 50px;
+  }
+  
+  .sectionlogin{
+    background: #2d3e3f;
+    width: 350px;
+    height: 250px;
+    padding-bottom: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 30px 50px 20px 50px;
+  }
+
+  .login, .signup{
+    margin: auto;
+    padding: 1px 40px 10px 40px;
+}
+
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form__label{
+    margin: 10px 0px 5px 0px;
+    display:block;
+    font-size:20px;
+    font-weight:bold;
+    color:bisque;
+  }
+
+  #username, #password, #email, #confirmpassword{
+    height: 35px;
+    width: 190px;
+    border: none;
+    padding-left: 20px;
+  }
+  .form__submit{
+  margin:15px 0px;
+  padding: 5px 30px;
+  background-color: #f78f20;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+ }
+ .form__submit:hover {
+  background-color:#f28005;
+}
+
+ .form__signup{
+  color:beige;
+ }
+
+  
+  

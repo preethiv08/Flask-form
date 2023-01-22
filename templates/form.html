@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <link rel="stylesheet" href="/static/formstyle.css"/> 
+</head>
+
+<body>
+    <h1 class="title">Login</h1>
+    <section class="sectionlogin">
+        <div class="login">
+        <form class="form" action="/" method="POST">
+        <label for="Username" class="form__label"> Username</label>
+        <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+        <label for="Password" class="form__label"> Password</label>
+        <input type="password" placeholder="Password" name="password" id="password" required>
+
+        <button type="submit" class="form__submit"> Login</button>
+        <a class="form__signup" href="{{ url_for('signup') }}"> Sign up?</a>
+        </form>
+        </div>
+    </section>
+</body>
